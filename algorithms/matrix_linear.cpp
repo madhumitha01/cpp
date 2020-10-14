@@ -1,12 +1,12 @@
 // represent linear equation in form of matrix
-#include<iostream.h>
-#include<conio.h>
- 
+#include <conio.h>
+#include <iostream.h>
+
 using namespace std;
- 
+
 int main(void)
 {
-    char var[] = { 'x', 'y', 'z', 'w' };
+    char var[] = {'x', 'y', 'z', 'w'};
     cout << "Enter the number of variables in the equations: ";
     int n;
     cin >> n;
@@ -22,7 +22,7 @@ int main(void)
         }
         cin >> constants[i][0];
     }
- 
+
     cout << "Matrix representation is: ";
     for (int i = 0; i < n; i++)
     {
