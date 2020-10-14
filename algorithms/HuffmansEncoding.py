@@ -29,7 +29,7 @@ def printEncode(x: Node):
 def main():
     from heapq import heappush, heappop
     heap = []
-    n = int(input("Enter the number of characters"))
+    n = int(input("Enter the number of characters:"))
     for i in range(n):
         a, b = input("Enter char : freq").split()
         b = int(b)
